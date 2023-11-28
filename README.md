@@ -37,6 +37,71 @@ To collaborate on this project using Replit, you can follow these steps:
 5. Collaborate on the project in real time.
 6. When you are ready to deploy the project, you can export it as a static website and host it on a hosting provider like AWS or Azure.
 
+**Updating Your Forked Repository**
+
+*Fetch Upstream Changes:*
+
+Open a terminal window and navigate to the directory containing your local fork of the repository. Run the following command to fetch the latest changes from the upstream repository:
+
+`git fetch upstream`
+
+*Review Upstream Changes:*
+
+Before merging the upstream changes, it's recommended to review them to ensure there are no conflicts or unexpected changes. You can use the following command to compare your local branch with the upstream branch:
+
+`git diff upstream/main`
+
+*Merge Upstream Changes:*
+
+Once you've reviewed the upstream changes and are ready to integrate them into your local fork, run the following command to merge the upstream branch into your local branch:
+
+
+`git merge upstream/main`
+
+*Resolve Conflicts (if any):*
+
+If there are any conflicts during the merge, you'll need to resolve them manually. This involves editing the conflicting files and resolving the differences between your local changes and the upstream changes.
+
+*Push Local Changes:*
+
+Once you've successfully merged the upstream changes, you can push your updated local fork to your remote repository on GitHub. Run the following command:
+
+`git push origin main`
+
+**Creating a Pull Request**
+
+*Navigate to Your Forked Repository:*
+
+1. Go to your forked repository on GitHub. You can find it under your repositories list or by navigating to https://github.com/<your-username>/<repository-name>.
+
+2. Access Pull Requests Tab:
+
+> Click on the "Pull requests" tab located at the top of the repository page.
+
+3. Initiate Pull Request Creation:
+
+> Click on the green button labeled "New pull request".
+
+4. Select Source and Destination Branches:
+
+> Under the "Create pull request" section, ensure that your forked repository is selected as the "Source" branch and the original repository is selected as the "Destination" branch.
+
+5. Review and Add Title and Description:
+
+> Review the comparison of changes between your forked repository and the original repository. Add a clear and concise title and description to your pull request explaining the purpose of your changes.
+
+6. Submit Pull Request:
+
+> Once you're satisfied with the pull request details, click on the green button labeled "Create pull request".
+
+*Additional Notes*
+
+The maintainers of the original repository will review your pull request and provide feedback or request further modifications.
+
+Once the pull request is approved, the maintainers will merge it, integrating your changes into the main branch of the original repository.
+
+Regularly updating your forked repository ensures that you're working with the latest version of the codebase and incorporating any new features or bug fixes introduced by the original repository maintainers.
+
 **Contribution guidelines:**
 
 We welcome contributions to this LMS. If you have a suggestion or bug fix, please create a pull request on GitHub. Please make sure that your code is well-formatted and that it includes unit tests.
