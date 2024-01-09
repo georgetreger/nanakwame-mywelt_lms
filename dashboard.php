@@ -1,6 +1,7 @@
 <?php include './header.html';
 include './nav.php';
 ?>
+    <button class="btn btn-primary"></button>
 
     <div class="row">
         <div class="row">
