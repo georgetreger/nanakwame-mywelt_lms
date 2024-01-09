@@ -2,7 +2,6 @@
 include './nav.php';
 ?>
 
-<?php include './main.html' ?>
-
+<button class="btn btn-primary">Vera</button>
 
 <?php include './footer.html' ?>
