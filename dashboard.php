@@ -1,7 +1,6 @@
 <?php include './header.html';
 include './nav.php';
 ?>
-
     <div class="row">
         <div class="row">
             <div class="col-12 mt-4">
@@ -18,7 +17,7 @@ include './nav.php';
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-md-6 mb-xl-0 mb-5">
-                        <div class="card card-background-mask-dark ">
+                        <div class="card card-background-mask-dark">
                             <a class="" href="https://google.com">
                                 <div class="card-header p-0 mt-n4 mx-3">
                                     <a class="d-block shadow-xl border-radius-xl">
@@ -205,6 +204,5 @@ include './nav.php';
             </div>
         </div>
     </div>
-
 
 <?php include './footer.html' ?>
