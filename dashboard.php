@@ -1,5 +1,6 @@
 <?php include './header.html';
 include './nav.php';
+include './main.html';
 ?>
     <div class="row">
         <div class="row">
